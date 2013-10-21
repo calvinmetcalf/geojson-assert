@@ -1,0 +1,28 @@
+{
+  "name": "geojson-assert",
+  "version": "0.0.0",
+  "description": "assertion testing about geojson",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calvinmetcalf/geojson-assert.git"
+  },
+  "keywords": [
+    "geojson",
+    "assert",
+    "test"
+  ],
+  "scripts": {
+    "test": "mocha -R nyan test/test.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvinmetcalf/geojson-assert/issues"
+  },
+  "dependencies": {
+    "geojsonhint": "~0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  }
+}
