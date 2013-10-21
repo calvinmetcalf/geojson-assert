@@ -1,0 +1,8 @@
+{
+ "nullFeatures":{ "type": "FeatureCollection", "features": [null] },
+ "bboxString":{
+        "type": "Point",
+        "coordinates": [2, 2],
+        "bbox": [1, 2, "string"]
+    }
+}

@@ -17,6 +17,9 @@ GeoJSONError.prototype.constructor = GeoJSONError;
 function assert(str,obj) {
     var key;
     if(obj){
+        if(typeof str === 'string'){
+            str = JSON.parse(str);
+        }
         for(key in str){
             assert(str[key]);
         }
