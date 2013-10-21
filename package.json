@@ -1,6 +1,6 @@
 {
   "name": "geojson-assert",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "assertion testing about geojson",
   "main": "index.js",
   "repository": {
