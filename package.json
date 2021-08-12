@@ -19,8 +19,8 @@
   "bugs": {
     "url": "https://github.com/calvinmetcalf/geojson-assert/issues"
   },
-  "dependencies": {
-    "geojsonhint": "~0.1.5"
+  "peerDependencies": {
+    "geojsonhint": "*"
   },
   "devDependencies": {
     "mocha": "~1.13.0"
